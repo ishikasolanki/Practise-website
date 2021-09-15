@@ -1,0 +1,22 @@
+{
+  "name": "ishika",
+  "version": "1.0.0",
+  "description": "helo",
+  "main": "backend.js",
+  "scripts": {
+    "test": "hello my name is ishika"
+  },
+  "repository": {
+    "type": "git",
+    "url": "h"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "ishika solanki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

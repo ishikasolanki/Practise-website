@@ -1,0 +1,214 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS VARIABLES */
+:root{
+    --navbar-height:59px;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: black; */
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+} 
+
+#logo{
+    margin: -6px 4px
+}
+#logo img{
+     height: 100px;
+     width: 100px;
+     margin: 18px 6px;
+}
+ul{
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 2rem;
+
+}
+#navbar ul li a{
+   display: block;
+   padding: 3px 22px ;
+   text-decoration: none;
+   color: snow;
+
+}
+#navbar ul li a:hover{
+    color: rgb(188, 102, 231);
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(192, 187, 187);
+ 
+ }
+ #home{
+     display: flex;
+     flex-direction: column;
+     padding: 45px 200px;
+     justify-content: center;
+     align-items: center;
+     height: 547px;
+ }
+ #home::before{
+     content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../spaghiti.jpeg');
+    opacity: 0.89;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    }
+#home h1{
+    color: floralwhite;
+    text-align: center;
+}
+#home p{
+    color: floralwhite;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hprimary{
+        font-size: 3rem;
+        padding: 30px;
+    }
+.btn{
+padding:6px 20px ;
+border: 2px solid whitesmoke;
+background-color: rgb(199, 146, 108);
+color: snow;
+margin:20px;
+border-radius: 3px;
+font-size: 1.2rem;
+cursor: pointer;
+}   
+.center{
+    text-align: center;
+}
+.hsecondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#services{
+    margin:34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid red;
+    padding: 19px;
+    margin: 10px;
+    background-color:seashell;
+    border-radius: 10px;
+   
+}
+#services .box img{
+    height: 147px;
+    width: 199px;
+    display: block;
+    margin: auto;
+}
+    
+.dark{
+    color: black;    
+}
+
+#clientsec{
+    height: 497px;
+ 
+}
+#clientsec::before{
+    content: "";
+    background-image: url('../diningtable.jpeg');
+    position: absolute;
+    height: 66%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#clients{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#clients img{
+    height: 113px;
+    width: 117px;
+}
+.clientitems{
+    padding: 40px; 
+
+}
+
+
+#contact{
+ height: 808px;
+ position: relative;
+}
+#contact::before{
+    
+    content: "";
+    position: absolute;
+    height: 103%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url("../telephone.jpeg") center center /cover;
+    background-repeat: no-repeat ;
+   
+
+}
+.formgrp{
+    margin: 4px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center
+}
+#contbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contbox form{
+    width: 500px;
+}
+#contbpx label{
+    font-size: 1.4rem;
+}
+.formgrp input,
+.formgrp textarea{
+    width: 100%;
+    padding: 2px;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+
+footer{
+    background-color: black;
+    color: slategrey;
+    padding: 50px;
+}

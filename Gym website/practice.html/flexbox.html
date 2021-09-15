@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        border: solid 2px black;
+        padding: 60px;
+        display: flex;
+        /* flex-direction: row-reverse; */
+        /* flex-wrap: wrap; */
+        flex-flow: row wrap;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .box{
+        background-color: tomato;
+        border:green 4px solid;
+        margin: 20px;
+        padding:30px;
+        height: 300px;
+        width: 30px;
+        
+    }; 
+    
+
+
+/* #box1{
+    position: absolute;
+    display: inline;
+}
+#box2{
+    display: inline;
+}
+#box3{
+    display: inline;
+}
+#box4{
+    display: inline;
+}
+#box5{
+    display: inline;
+}
+#box6{
+    display: inline;
+}
+    */
+    @media only screen and (max-width:300px) {
+        #box1{
+            background-color:cyan;
+        }
+    }
+        @media (max-width:500px) and (min-width:300px) {
+        #box2{
+            background-color:brown;
+        }
+    }
+        @media (max-width:700px) and (min-width:500px){
+        #box3{
+            background-color:palevioletred;
+        }
+    }
+        @media (min-width:700px) {
+        #box4{
+            background-color:darkmagenta;
+        }
+        };
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div class="box" id="box1">first</div>
+     <div class="box" id="box2">second</div>
+     <div class="box" id="box3">third</div>
+     <div class="box" id="box4">fourth</div>
+     
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#navbar ul li a{
+    font-size: 30px;
+    padding: 0px 14px ;
+}
+#home{
+height: 250px;
+padding: 3px 68px;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    background-image: url(../spaghiti.jpeg);
+    opacity: 0.89;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+#home h1{
+    font-size: 31PX;
+    padding-left: 44px;
+    padding-top: 153px;
+    white-space: nowrap;
+} 
+#home p{
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+    padding-left: 44px;
+
+
+}
+#services{
+    display: flex;
+    flex-direction: column;
+
+}
+#clients{
+    flex-wrap: wrap;
+    display: flex;
+    margin: -49px;
+    justify-content: center;
+    align-items: center;
+}
+.clientitems {
+    padding: 31px;
+}
+#clientsec::before {
+    content: "";
+    background-image: url(../diningtable.jpeg);
+    position: absolute;
+    height: 78%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* utilities */
+.hprimary {
+    font-size: 3rem;
+    padding: 69px;
+    margin: 19px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}

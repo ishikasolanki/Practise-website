@@ -1,0 +1,22 @@
+html 
+    head 
+        title Ishika Dance Academy
+        block script 
+            script(src='../static/script.js')
+        body 
+            nav#navbar 
+                ul 
+                    div#logo
+                        img(src='../static/logo.png')
+                    li #[a(href="/") Home] 
+                    li #[a(href="/") About]
+                    li #[a(href="/") Services]
+                    li #[a(href="/") Class Info] 
+                    li #[a(href="/") Contact Us]
+        block content             
+        block style
+            style 
+                include ../static/style.css
+        block foot 
+         #footer 
+            |

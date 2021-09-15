@@ -1,0 +1,54 @@
+extends ../views/base.pug 
+block script 
+    script(src='/static/script.js')
+block style 
+    style 
+        include ../static/style.css
+block content         
+    section#introsection
+      div.intro Ishika Dance Academy 
+      div.intro Eat Sleep Dance Repeat
+    
+
+    section#mission 
+      h2 Our Mission 
+      div.container 
+        div.card
+          h3 Dance Perfection  
+          div.card-box
+            img(src='../static/img1.jpg')
+          div.content
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, veritatis!
+
+        div.card
+          h3 Dance The Way You Like 
+          div.card-box
+            img(src='../static/img2.png')
+          div.content
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, veritatis! 
+
+        div.card
+          h3 Expert Training     
+          div.card-box
+            img(src='../static/img3.png')
+          div.content
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, veritatis!
+    section#sponsors 
+      h2 Our Sponsors
+      div.container 
+        div.spons
+          img(src="../static/apple.png") 
+        div.spons
+          img(src="../static/hp.png") 
+        div.spons
+          img(src="../static/apple.png") 
+        div.spons
+          img(src="../static/hp.png") 
+        div.spons
+          img(src="../static/apple.png") 
+        div.spons
+          img(src="../static/hp.png") 
+    
+    section#footer 
+      p &copy Ishika Solanki
+    

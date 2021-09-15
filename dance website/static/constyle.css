@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+    align-items: center;
+}
+.myinput{
+    width: 401px;
+    margin: 4px;
+    padding: 7px;
+    border: black solid 5px;
+    border-radius: 9px;
+}
+.rad{
+display: inline-block;
+margin: 5px;
+
+}
+.r{
+    margin: 5px;
+    margin: 0 10px 0 10px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 8px;
+    color: darkgray;
+    background-color: black;
+}
